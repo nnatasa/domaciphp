@@ -1,5 +1,5 @@
 <?php
-    $connect = mysqli_connect("localhost", "admin", "admin", "wolfz");
+    $connect = mysqli_connect("localhost", "root", "", "wolfz");
     $izlaz = '';
     if(isset($_POST["izvestaj"]))
     {
